@@ -11,8 +11,7 @@ N/A
 ## Usage
 The user can click on the navagation bar items and they will navigate the user to the specifed location on the webpage. The user can hover over the cards in the work section and they will display a hover feature that makes it easier for the user to determine which card they are on. The user can also click on the cards and it will link to the project that the they have clicked on. Lastly, if the user navigates to the footer they will see ways in whcih they can contact me. I've provided clickable items that navigate to my github and to linkedIn(homepage). 
 
-## Mock Up
-![](/Portfolio/images/Portfolio%20Mockup.png)
+![](./images/_Users_robertarellano_bootcamp_Portfolio_index.html%20(1).png)
 
 ## Git Pages Link 
 https://github.com/rarellano5280/Portfolio.git
