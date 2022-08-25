@@ -11,6 +11,7 @@
     background-color: var(--Haight);
     color: var(--Lombard);
   }
+
    /* Changed font size so that 10px=1rem */
   html {
     font-size: 62.5%;
@@ -90,6 +91,17 @@
   margin: 4rem 10%;
   font-size: medium;
   gap: 1.5rem;
+}
+
+.about-me h1{
+  text-align: center;
+}
+
+.about-me img{
+  width: 15rem;
+  border: .1rem solid var(--Golden);
+  height: 15rem;
+  border-radius: 50%;
 }
 
 .vert-line{
@@ -185,6 +197,13 @@ footer a{
     text-align: center;
     width: auto;
     display: flex;
-    flex-wrap: wrap;
   }
+}
+
+@media screen and (max-width: 540px){
+  .par-about-me{
+    display: flex;
+    flex-direction: column;
+  }
+  
 }
