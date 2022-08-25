@@ -20,8 +20,6 @@
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
       Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  
-   
     font-size: 1.75rem;
     line-height: 1.5;
     color: black;
@@ -87,27 +85,13 @@
     width: 100%;
   }
 
-.about-me{
+#about-me,
+#work{
   display: flex;
-  margin: 4rem 5%;
+  margin: 4rem 10%;
   font-size: medium;
   gap: 1.5rem;
 }
-
-.work{
-  display: flex;
-  margin: 4rem 5%;
-  font-size: medium;
-  gap: 1.5rem;
-}
-
-.contact{
-  display: flex;
-  font-size: medium;
-  gap: 1.5rem;
-}
-
-
 .vert-line{
   width: .4rem;
   background-color: var(--Golden);
@@ -192,7 +176,10 @@ footer a{
   li
   .about-me,
   .work,
-  .footer {
+  .footer 
+  #upper-header,
+  .name-tag{
+    margin: auto;
     text-align: center;
     width: auto;
     display: flex;
